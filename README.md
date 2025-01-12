@@ -40,10 +40,10 @@ Hệ thống được xây dựng theo kiến trúc **MVC (Model-View-Controller
   - `tbl_users`: Quản lý thông tin người dùng.
   - `tbl_orders`: Quản lý đơn hàng.
   - `tbl_categories`: Quản lý danh mục sản phẩm.
-  - tbl_roles: Quản lý vai trò người dùng.
-  - tbl_comments: Lưu trữ đánh giá của khách hàng.
-  - tbl_promotions: Quản lý các chương trình khuyến mãi.
-  - tbl_order_details: Chi tiết đơn hàng.
+  - `tbl_roles`: Quản lý vai trò người dùng.
+  - `tbl_comments`: Lưu trữ đánh giá của khách hàng.
+  - `tbl_promotions`: Quản lý các chương trình khuyến mãi.
+  - `tbl_order_details`: Chi tiết đơn hàng.
 - **View**: Hiển thị giao diện người dùng:
   - Trang chủ: Hiển thị sản phẩm nổi bật, danh mục và khuyến mãi.
   - Trang giỏ hàng, thanh toán: Tương tác với người dùng để xử lý đặt hàng.
@@ -53,8 +53,8 @@ Hệ thống được xây dựng theo kiến trúc **MVC (Model-View-Controller
   - `CartController`: Quản lý giỏ hàng.
   - `OrderController`: Xử lý đặt hàng.
   - `AdminController`: Quản lý các chức năng dành cho quản trị viên.
-  - PromotionController: Quản lý khuyến mãi.
-  - CommentController: Xử lý đánh giá sản phẩm.
+  - `PromotionController`: Quản lý khuyến mãi.
+  - `CommentController`: Xử lý đánh giá sản phẩm.
 
 ---
 
