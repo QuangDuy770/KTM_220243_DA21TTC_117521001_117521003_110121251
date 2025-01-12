@@ -46,9 +46,14 @@ Hệ thống được xây dựng theo kiến trúc **MVC (Model-View-Controller
   - `tbl_order_details`: Chi tiết đơn hàng.
 - **View**: Hiển thị giao diện người dùng:
   - Trang chủ: Hiển thị sản phẩm nổi bật, danh mục và khuyến mãi.
-  - Trang giỏ hàng, thanh toán: Tương tác với người dùng để xử lý đặt hàng.
-  - Giao diện quản trị: Quản lý nội dung và theo dõi thống kê.
-- **Controller**: Điều phối giữa Model và View. Các controller chính:
+  - Trang sản phẩm: Danh sách sản phẩm theo danh mục, tìm kiếm và lọc sản phẩm.
+  - Trang chi tiết sản phẩm: Thông tin chi tiết về sản phẩm (hình ảnh, giá, mô tả, đánh giá).
+  - Trang giỏ hàng: Quản lý sản phẩm trong giỏ, cập nhật số lượng, áp dụng mã giảm giá.
+  - Trang thanh toán: Điền thông tin giao hàng, chọn phương thức thanh toán và xác nhận đơn hàng.
+  - Trang đăng nhập/đăng ký: Giao diện cho người dùng tạo tài khoản hoặc đăng nhập.
+  - Trang quản trị: Quản lý sản phẩm, đơn hàng, khuyến mãi, danh mục, và thống kê.
+  - Trang thống kê: Hiển thị doanh thu, sản phẩm bán chạy, và các biểu đồ trực quan.
+- **Controller**: Điều phối giữa Model và View. Các controller chính
   - `ProductController`: Xử lý các chức năng liên quan đến sản phẩm.
   - `CartController`: Quản lý giỏ hàng.
   - `OrderController`: Xử lý đặt hàng.
